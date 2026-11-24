@@ -1,0 +1,9 @@
+experiment:
+  name: budget_aware_automl
+  task: classification
+  random_state: 42
+
+budget:
+  max_runtime_seconds: 120
+  max_memory_mb: 2048
+  max_candidates: 5
